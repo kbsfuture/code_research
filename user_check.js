@@ -26,3 +26,5 @@ if (!existingUser) {
     res.send({ accessToken: accessToken });
   }
 }
+
+// 여러 조건이 필요할 경우 1차적으로 우선조건으로 분기를 친후 if문을 중첩으로 형성
